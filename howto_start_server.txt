@@ -1,0 +1,15 @@
+How to start a server:
+
+1. Load hunchentoot and parenscript using Quicklisp
+
+2. Run the following from your REPL
+
+(load "table.lisp")
+(testserv:start-server)
+
+3. Go to localhost:4242/table.htm
+
+If port 4242 is closed you can specify another port
+
+(testserv:start-server :port port_number)
+
