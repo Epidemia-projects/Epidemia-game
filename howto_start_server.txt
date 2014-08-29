@@ -7,7 +7,7 @@ How to start a server:
 (load "table.lisp")
 (testserv:start-server)
 
-3. Go to localhost:4242/table.htm
+3. Go to localhost:4242/table.html
 
 If port 4242 is closed you can specify another port
 
